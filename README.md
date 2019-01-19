@@ -43,3 +43,15 @@ It's important to respect this structure
 
 Now you ready to install you new app.
 https://www.mydomain.net/shop/ClicShoppingAdmin/index.php?A&MY_NEWS_APP
+
+All informations about the ClicShopping
+
+ Community : https://www.clicshopping.org
+
+ Software : https://github.com/ClicShopping
+
+ Official add on : https://github.com/ClicShoppingOfficialModulesV3
+
+ Community add on : https://github.com/ClicShoppingV3Community
+
+ trademark License info : https://www.clicshopping.org/forum/trademark/
