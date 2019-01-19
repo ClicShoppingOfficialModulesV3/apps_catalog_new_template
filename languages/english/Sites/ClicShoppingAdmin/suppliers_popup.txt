@@ -1,0 +1,32 @@
+heading_title = New_Template management
+
+title_new_template_general = General information
+title_new_template_image = NewTemplate Image
+tab_visuel = Image
+tab_new_template_note = Notes
+tab_new_template_address = Address
+title_new_template_address = Address
+
+text_new_template = New_Template:
+text_image_nonexistent = IMAGE DOES NOT EXIST
+
+text_new_template_general = Others informations
+text_new_template_name = New_Template Name:
+text_new_template_new_image = New new_template Image:
+text_new_template_image = New_Template Image:
+text_new_template_delete_image = Not display image new_template
+text_new_template_url = New_Template URL:
+text_new_template_address = Address :
+text_new_template_suburb = Suburb :
+text_new_template_postcode = Postcode :
+text_new_template_city = City :
+text_new_template_states = States :
+text_new_template_country = Country :
+text_new_template_notes = Others informations
+text_products_image_vignette = Image
+text_delete_image = Delete new_template image?
+
+title_new_template_manager = Manager name :
+title_new_template_phone = Telephone :
+title_new_template_fax = Fax :
+title_new_template_email_address = Email address :

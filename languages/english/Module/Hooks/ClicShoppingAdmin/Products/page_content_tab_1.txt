@@ -1,0 +1,2 @@
+text_products_new_template = New_Template
+text_create = Create

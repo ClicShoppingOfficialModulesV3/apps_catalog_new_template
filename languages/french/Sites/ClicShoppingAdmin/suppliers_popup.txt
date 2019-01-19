@@ -1,0 +1,32 @@
+heading_title = Gestion des fournisseurs
+
+title_new_template_general = Informations généralres
+title_new_template_image = Image du fournisseur
+tab_visuel = Image
+tab_new_template_note = Notes
+tab_new_template_address = Adresse
+title_new_template_address = Adresse
+
+text_new_template = Fournisseurs :
+text_image_nonexistent = L'IMAGE N'EXISTE PAS
+
+text_new_template_general = Autres informations
+text_new_template_name = Nom du fournisseur :
+text_new_template_new_image = Nouvelle image du fournisseur :
+text_new_template_image = Image actuel du fournisseur :
+text_new_template_delete_image = Ne plus afficher d'image fournisseur
+text_new_template_url = URL du fournisseur :
+text_new_template_address = Adresse :
+text_new_template_suburb =  Addresse complémentaire :
+text_new_template_postcode = Code Postale :
+text_new_template_city = Ville :
+text_new_template_states = Etat / Département :
+text_new_template_country = Pays :
+text_new_template_notes = Notes complémentaires
+text_products_image_vignette = Image
+text_delete_image = Suppprimer l'image du fournisseur ?
+
+title_new_template_manager = Nom responsable :
+title_new_template_phone = Télephone :
+title_new_template_fax = Fax :
+title_new_template_email_address = Adresse email :

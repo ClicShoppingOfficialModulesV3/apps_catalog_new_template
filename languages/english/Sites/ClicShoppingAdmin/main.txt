@@ -1,0 +1,91 @@
+heading_title = New_Template
+module_nt_title = New_Template
+module_nt_short_title = New_Template
+
+text_new_template =  New_Template
+text_configure =  configure App Module
+
+text_intro = This app allow you to include a New_Template form. <br /><br />
+- Click on Configure to access / install or uninstall the app.<br />
+- The App is located in Catalog / New_Template<br />
+
+module_nt_introduction = The install process create the database settings for this module and the access menu
+
+button_install_title = Install
+button_configure = Configure
+button_save = Save
+button_dialog_uninstall =  Uninstall
+button_uninstall =  Uninstall
+button_delete = Delete
+button_new_template = New_Template
+button_cancel = Cancel
+button_new = New new_template
+button_update = Update
+button_insert = Insert
+
+dialog_uninstall_title = Uninstall
+dialog_uninstall_body = Do you want install this App ?
+dialog_uninstall_title = Uninstall Module?
+dialog_uninstall_body = Are you sure you want to uninstall this module?
+
+alert_module_install_success = Module has been successfully installed.
+alert_module_uninstall_success = Module has been successfully uninstalled.
+alert_cfg_saved_success = Configuration parameters have been successfully saved.
+
+text_result_page = Page {{listing_from}} of {{listing_total}}
+text_display_number_of_link = Display <strong>{{listing_from}}</strong> to <strong>{{listing_to}}</strong> (on <strong>{{listing_total}}</strong>)
+
+
+table_heading_new_template = NewTemplate name
+
+table_heading_manager = Manager name
+table_heading_phone = Telephone
+table_heading_fax = FAX
+table_heading_email_address = Email
+table_heading_action = Action
+table_heading_status = Statut
+
+table_heading_new_new_template = New NewTemplate
+table_heading_edit_new_template = Edit new_template
+table_heading_delete_new_template = Delete new_template
+
+tab_new_template_note = Notes
+tab_visuel = Image
+tab_general = General
+
+title_new_template_general = General
+title_help_image = Note on the use of the images
+
+text_new_template = New_Template:
+text_date_added = Date Added:
+text_last_modified = Last Modified:
+text_products = Products:
+text_image_nonexistent = IMAGE DOES NOT EXIST
+title_new_template_image = NewTemplate image
+text_products_image_vignette = Image
+text_products_image_visuel = Image preview
+
+text_new_intro = Please fill out the following information for the new new_template
+text_edit_intro = Please make any necessary changes
+
+text_new_template_name = New_Template Name:
+text_new_template_new_image = New new_template Image:
+text_new_template_image = New_Template Image:
+text_new_template_delete_image = Delete image
+help_image_new_template = * Please do not insert more than one image in the section New image.<br /><br />* Note : For the Firefox navigator users, you must click twice on the button source to use the wisiwyg correctly.<br />If you inserted plugin in Firefox, there can be incompatibilities (ex: adblock +)
+text_new_template_url = New_Template URL:
+text_new_template_manager = Manager name :
+text_new_template_phone = Telephone :
+text_new_template_fax = Fax :
+text_new_template_email_address = Email address :
+text_new_template_address = Address :
+text_new_template_suburb = Suburb :
+text_new_template_postcode = Postcode :
+text_new_template_city = City :
+text_new_template_states = States :
+text_new_template_country = Country :
+text_new_template_notes = Others informations
+
+text_delete_intro = Are you sure you want to delete this new_template?
+text_delete_image = Delete new_template image?
+text_delete_products = Delete products from this new_template? (including product reviews, products on special, upcoming products)
