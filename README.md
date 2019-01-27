@@ -31,6 +31,8 @@ Rename directories and files
 
 - Update the language files
 
+- License GPL2 - MIT
+
 Note
 These directories has been inserted to help you. If you don't need, you can remove.
 - Remove Classes directories if you don't have need. 
