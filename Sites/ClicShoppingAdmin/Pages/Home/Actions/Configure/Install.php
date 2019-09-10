@@ -93,7 +93,7 @@
       if ($Qcheck->fetch() === false) {
         $sql = <<<EOD
 CREATE TABLE :table_new_template (
-  new_template_id int not_null auto_increment,
+  new_template_id int not null auto_increment,
   new_template_name varchar(32) NOT NULL,
   new_template_image varchar(255),
   date_added datetime,
