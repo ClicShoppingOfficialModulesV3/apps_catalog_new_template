@@ -24,6 +24,6 @@
 
     public function execute() {
 
-      $this->app->redirect('New_Template&' . $_GET['page'] . '&mID=' . $_GET['id']);
+      $this->app->redirect('New_Template&' . (int)$_GET['page'] . '&mID=' . (int)$_GET['id']);
     }
   }

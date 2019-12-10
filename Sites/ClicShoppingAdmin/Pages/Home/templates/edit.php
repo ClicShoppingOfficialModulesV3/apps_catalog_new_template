@@ -45,7 +45,7 @@
   echo HTML::form ('new_template',  $CLICSHOPPING_New_Template->link('New_Template&' . $form_action . $variable) );
   if ($form_action == 'Update') echo HTML::hiddenField('new_template_id', $_GET['mID']);
 
-  echo HTML::button($CLICSHOPPING_New_Template->getDef('button_cancel'), null, $CLICSHOPPING_New_Template->link('New_Template&page=' . $_GET['page'] . '&mID=' . $_GET['mID']), 'warning') .'&nbsp;';
+  echo HTML::button($CLICSHOPPING_New_Template->getDef('button_cancel'), null, $CLICSHOPPING_New_Template->link('New_Template&page=' . (int)$_GET['page'] . '&mID=' . $_GET['mID']), 'warning') .'&nbsp;';
   echo (($form_action == 'Insert') ? HTML::button($CLICSHOPPING_New_Template->getDef('button_insert'), null, null, 'success') : HTML::button($CLICSHOPPING_New_Template->getDef('button_update'), null, null, 'success'));
 ?>
             </span>

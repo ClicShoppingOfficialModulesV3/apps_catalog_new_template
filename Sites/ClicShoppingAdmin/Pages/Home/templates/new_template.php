@@ -31,7 +31,7 @@
             <span class="col-md-7 text-md-right">
 <?php
   echo HTML::button($CLICSHOPPING_New_Template->getDef('button_new'), null,$CLICSHOPPING_New_Template->link('Edit'), 'success');
-  echo HTML::form('delete_all', $CLICSHOPPING_New_Template->link('New_Template&DeleteAll&page=' . $_GET['page']));
+  echo HTML::form('delete_all', $CLICSHOPPING_New_Template->link('New_Template&DeleteAll&page=' . (int)$_GET['page']));
 ?>
               <a onclick="$('delete').prop('action', ''); $('form').submit();" class="button"><span><?php echo HTML::button($CLICSHOPPING_New_Template->getDef('button_delete'), null, null, 'danger'); ?></span></a>
            </span>
