@@ -22,7 +22,7 @@
 
     public function execute() {
 
-      if (!empty($_POST['selected'])) {
+      if (isset($_POST['selected'])) {
         foreach ($_POST['selected'] as $id ) {
 
         }
