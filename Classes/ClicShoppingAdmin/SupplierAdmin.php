@@ -29,7 +29,7 @@
  *
  * @param string  $new_template_id, $language_id
  * @return string $new_template['new_template_description'],  description of the new_template
- * @access public
+ *
  */
     public function getNewTemplateUrl($new_template_id, $language_id) {
 

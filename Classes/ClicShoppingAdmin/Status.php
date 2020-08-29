@@ -23,13 +23,13 @@
  *
  * @param string new_template_id, status
  * @return string status on or off
- * @access public
+ *
  */
 
     Public static function getNew_TemplateStatus($new_template_id, $status) {
       $CLICSHOPPING_Db = Registry::get('Db');
 
-      if ($status == 1) {
+      if ($status === 1) {
 
         return $CLICSHOPPING_Db->save('new_template', ['new_template_status' => 1,
                                              'date_added' => 'null',
@@ -38,7 +38,7 @@
                                             ['new_template_id' => (int)$new_template_id]
                             );
 
-      } elseif ($status == 0) {
+      } elseif ($status === 0) {
 
         return $CLICSHOPPING_Db->save('new_template', ['new_template_status' => 0,
                                              'last_modified' => 'now()'
