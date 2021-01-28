@@ -61,8 +61,8 @@
 ?>
     <div class="row">
       <div class="col-md-12">
-        <div class="col-md-6 float-md-left pagenumber hidden-xs TextDisplayNumberOfLink"><?php echo $Qnew_template->getPageSetLabel($CLICSHOPPING_New_Template->getDef('text_display_number_of_link')); ?></div>
-        <div class="float-md-right text-md-right"><?php echo $Qnew_template->getPageSetLinks(CLICSHOPPING::getAllGET(array('page', 'info', 'x', 'y'))); ?></div>
+        <div class="col-md-6 float-start pagenumber hidden-xs TextDisplayNumberOfLink"><?php echo $Qnew_template->getPageSetLabel($CLICSHOPPING_New_Template->getDef('text_display_number_of_link')); ?></div>
+        <div class="float-end text-md-right"><?php echo $Qnew_template->getPageSetLinks(CLICSHOPPING::getAllGET(array('page', 'info', 'x', 'y'))); ?></div>
       </div>
     </div>
 <?php
