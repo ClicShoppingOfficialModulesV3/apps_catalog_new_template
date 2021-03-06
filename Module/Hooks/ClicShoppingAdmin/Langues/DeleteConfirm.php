@@ -29,14 +29,14 @@
 
     private function delete($id) {
 /*
-      if (!is_null($id)) {
+      if (!\is_null($id)) {
         $this->app->db->delete('new_template_info', ['languages_id' => $id]);
       }
 */
     }
 
     public function execute() {
-      if (!defined('CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS') || CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS == 'False') {
+      if (!\defined('CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS') || CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS == 'False') {
         return false;
       }
 

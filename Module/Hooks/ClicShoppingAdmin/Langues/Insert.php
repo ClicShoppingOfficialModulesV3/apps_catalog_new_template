@@ -57,7 +57,7 @@
     }
 
     public function execute() {
-      if (!defined('CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS') || CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS == 'False') {
+      if (!\defined('CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS') || CLICSHOPPING_APP_NEW_TEMPLATE_CS_STATUS == 'False') {
         return false;
       }
 /*
