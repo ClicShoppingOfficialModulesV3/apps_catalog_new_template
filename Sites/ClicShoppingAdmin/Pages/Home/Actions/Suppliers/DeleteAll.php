@@ -14,7 +14,7 @@
   use ClicShopping\OM\Registry;
 
   class DeleteAll extends \ClicShopping\OM\PagesActionsAbstract {
-    protected $app;
+    protected mixed $app;
 
     public function __construct() {
       $this->app = Registry::get('New_Template');

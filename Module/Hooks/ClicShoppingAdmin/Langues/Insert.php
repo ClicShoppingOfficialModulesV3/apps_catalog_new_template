@@ -17,7 +17,7 @@
   use ClicShopping\Apps\Catalog\New_Template\New_Template as New_TemplateApp;
 
   class Insert implements \ClicShopping\OM\Modules\HooksInterface {
-    protected $app;
+    protected mixed $app;
     protected $insert_language_id;
 
     public function __construct()   {

@@ -16,7 +16,7 @@
   use ClicShopping\Apps\Catalog\New_Template\Classes\ClicShoppingAdmin\Status;
 
   class SetFlag extends \ClicShopping\OM\PagesActionsAbstract {
-    protected $app;
+    protected mixed $app;
 
     public function __construct() {
       $this->app = Registry::get('New_Template');

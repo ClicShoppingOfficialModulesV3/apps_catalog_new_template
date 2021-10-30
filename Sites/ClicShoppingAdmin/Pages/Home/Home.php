@@ -16,7 +16,7 @@
   use ClicShopping\Apps\Catalog\New_Template\New_Template;
 
   class Home extends \ClicShopping\OM\PagesAbstract {
-    public $app;
+    public mixed $app;
 
     protected function init() {
       $CLICSHOPPING_New_Template = new New_Template();

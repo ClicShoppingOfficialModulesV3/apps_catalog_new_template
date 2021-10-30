@@ -17,7 +17,7 @@
 
     protected $new_template_id;
     protected $language_id;
-    protected $db;
+    protected mixed $db;
 
     public function __construct() {
       $this->db = Registry::get('Db');

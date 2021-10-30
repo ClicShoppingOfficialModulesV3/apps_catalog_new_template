@@ -14,7 +14,7 @@
   class sort_order extends \ClicShopping\Apps\Catalog\New_Template\Module\ClicShoppingAdmin\Config\ConfigParamAbstract {
 
     public $default = '300';
-    public $app_configured = false;
+    public bool $app_configured = false;
 
     protected function init() {
         $this->title = $this->app->getDef('cfg_new_template_sort_order_title');

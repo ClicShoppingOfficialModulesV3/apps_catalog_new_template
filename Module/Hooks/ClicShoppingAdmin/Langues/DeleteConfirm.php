@@ -17,7 +17,7 @@
   use ClicShopping\Apps\Catalog\New_Template\New_Template as New_TemplateApp;
 
   class DeleteConfirm implements \ClicShopping\OM\Modules\HooksInterface {
-    protected $app;
+    protected mixed $app;
 
     public function __construct()   {
       if (!Registry::exists('New_Template')) {
